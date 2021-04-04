@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.app {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -89,7 +89,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -107,16 +107,16 @@ li > * {
   vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+input[type="checkbox"] {
   margin: 0 10px;
 }
-li > label {
+label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
+input[type="text"] {
   width: 226px
 }
 button.delete img {
@@ -129,7 +129,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
   text-decoration: line-through
   color: #888;
 }
