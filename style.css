@@ -13,7 +13,7 @@
 .picture .image {
   width: 100%;
 }
-.picture .more_inf {
+.picture .more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -122,17 +122,17 @@ label {
 input[type="text"] {
   width: 226px;
 }
-button.delete img {
+.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete img:hover {
   transform: rotatez(0);
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
@@ -142,11 +142,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.edit-mode input[type="text"] {
+.edit-mode input[type="text"] {
   display: inline-block;
   width:224px;
 }
 
-ul li.edit-mode label {
+.edit-mode .task {
   display: none;
 }
